@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: white;
+}
+
+main {
+  padding: 1rem;
+  background-color: #f14770;
+  border-radius: 20px;
+  width: 900px;
+}
+
+.s-Laracast__ui {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-Video__info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.s-Favourite__icon {
+  background-color: #ef5867;
+  border-radius: 100px;
+  fill: white;
+}
+.s-Progress_info {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.s-Info__title {
+  font-weight: 300;
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.s-Info__result {
+  font-size: 14px;
+  font-weight: bold;
+}
+.s-Button {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #f45a88;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.s-Icon_completed {
+  fill: white;
+  height: 30px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
